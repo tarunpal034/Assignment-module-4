@@ -1,24 +1,9 @@
-(function (window) {
-	var johnGreeter = {};
-	johnGreeter.name = "Yaakov";
+(function (window){
+ 	var byeSpeaker = {};
 	var speakWord = "Good Bye";
-	yaakovGreeter.sayGoodBye = function() {
-		console.log(speakWord + johnGreeter.name);
+	byeSpeaker.speak = function (name) {
+  		console.log(speakWord + " " + name);
 	}
 
-	window.johnGreeter = johnGreeter;
+	window.byeSpeaker = byeSpeaker;
 })(window);
-
-
-
-
-
-
-
-
-
-
-//var speakWord = "Good Bye";
-//function speak(name) {
-//  console.log(speakWord + " " + name);
-//}
